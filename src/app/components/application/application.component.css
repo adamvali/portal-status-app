@@ -1,0 +1,13 @@
+p{
+  padding: 0.75rem;
+  margin-top: 1rem;
+}
+
+.up {
+  background-color: lightgreen;
+}
+
+.down {
+  background-color: lightcoral;
+}
+

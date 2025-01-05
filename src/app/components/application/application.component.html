@@ -1,0 +1,3 @@
+<div [ngClass]="{ 'up': app.status === 'UP', 'down': app.status === 'DOWN' }">
+  <p>{{ app.name }} is {{ app.status === 'UP' ? 'UP' : 'DOWN' }}</p>
+</div>

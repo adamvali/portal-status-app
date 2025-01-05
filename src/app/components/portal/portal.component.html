@@ -1,0 +1,11 @@
+<div *ngIf="portalStatus === 'UP'; else portalDown">
+  <h1>Portal is UP</h1>
+  <ul>
+    <ol *ngFor="let app of applications; let i = index">
+      <app-application [app]="app"></app-application>
+    </ol>
+  </ul>
+</div>
+<ng-template #portalDown>
+  <h1>Portal is DOWN</h1>
+</ng-template>
