@@ -1,0 +1,13 @@
+{
+  "portal-config": {
+    "portalStatus": "UP",
+    "applications": [
+      { "name": "App1", "status": "UP" },
+      { "name": "App2", "status": "DOWN" },
+      { "name": "App3", "status": "UP" },
+      { "name": "App4", "status": "UP" },
+      { "name": "App5", "status": "DOWN" },
+      { "name": "App6", "status": "UP" }
+    ]
+  }
+}
